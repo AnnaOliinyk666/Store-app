@@ -1,0 +1,53 @@
+.card{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+
+    
+}
+.info p{
+margin: 0;
+
+}
+.descr{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.info{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.img{
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    cursor:pointer;
+    
+}
+.price_block{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color,color;
+    transition-duration: 0.3s;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+}
